@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "TongFM",
+    "slug": "TongFM",
+    "version": "1.1.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#DEE9FD"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "audio"
+        ],
+        "bundleIdentifier": "com.jastin_uzb.TongFM",
+        "buildNumber": "1.0.0"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#DEE9FD"
+      },
+      "versionCode": 2,
+      "package": "com.jastin_uzb.TongFM",
+      "softwareKeyboardLayoutMode": "pan",
+      "permissions": [
+        "RECORD_AUDIO"
+      ]
+    }
+  }
+}
